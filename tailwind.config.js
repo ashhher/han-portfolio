@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['montserrat', 'Roboto', 'Arial', 'sans-serif'],
+        goldenSignature: ['goldenSignature', "sans-serif"],
+        montserrat: ['montserrat', "sans-serif"],
+        // Add more custom font families as needed
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -59,12 +65,20 @@ module.exports = {
       },
       keyframes: {
         "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
+          from: {
+            height: "0"
+          },
+          to: {
+            height: "var(--radix-accordion-content-height)"
+          },
         },
         "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
+          from: {
+            height: "var(--radix-accordion-content-height)"
+          },
+          to: {
+            height: "0"
+          },
         },
       },
       animation: {
