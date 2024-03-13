@@ -1,9 +1,10 @@
+import { Hero } from "@/components";
 import { MainLayout } from "@/layouts";
 
 const HomePage = () => {
   return (
     <MainLayout>
-      <div>home</div>
+      <Hero />
     </MainLayout>
   );
 };
