@@ -1,16 +1,12 @@
 # Portfolio Website 👩🏻‍💻
 
-<div align="center">
-A clean portfolio website refactored from <a href="https://github.com/erich2s/eric-portfolio-website" target="_blank"> eric-portfolio-website </a>
+<h4 align="center">A clean portfolio website refactored from <a href="https://github.com/erich2s/eric-portfolio-website" target="_blank"> eric-portfolio-website </a></h4>
 
-<br/>
-➡️ <em>
+<h4 align="center">🔵 <em>
 <strong>Live at:
 <a href="https://www.han-xiao.com/" target="_blank"> www.han-xiao.com </a>
 </strong>
-</em>
-
-</div>
+</em></h4>
 
 ## Features 🔍.
 
