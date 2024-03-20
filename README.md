@@ -8,7 +8,7 @@
 </strong>
 </em></h4>
 
-## Features 🔍.
+## Features 🔍
 
 - Distinct Sections
 - Responsive Design
@@ -27,3 +27,9 @@ This is a pure frontend project built with Vite.
 ## Deployment 🛠️
 
 Project is tested and deployed to [Vercel](https://vercel.com/).
+
+## Installation and Setup ⚙️
+
+1. Installation: `npm install`
+2. Run in development mode: `npm run dev`
+3. View the website from: http://localhost:5173
