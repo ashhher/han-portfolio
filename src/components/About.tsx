@@ -13,8 +13,8 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hi👋, I'm Han Xiao , a passionate <b>Software Engineer</b> based
-              in <b>Melbourne, Australia</b>. My role involves designing and
+              Hi, I'm Han Xiao, a passionate <b>Software Engineer</b> based in
+              <b> Melbourne, Australia</b>. My role involves designing and
               implementing scalable solutions that ensure optimal performance
               and user experience. I am also a collaborative team player with a
               passion for learning.
@@ -22,13 +22,39 @@ export default function about() {
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
             <p>
-              Beyond the realm of technology, I am also a home foodie, finding
-              joy and inspiration in the culinary arts. Experimenting with
-              flavors, exploring diverse cuisines, and honing my culinary skills
-              are endeavors that bring me immense satisfaction. Much like in
+              Beyond the realm of technology, I am a home foodie, finding joy
+              and inspiration in the culinary arts. Experimenting with flavours,
+              exploring diverse cuisines, and honing my culinary skills are
+              endeavours that bring me immense satisfaction. Much like in
               software development, I approach cooking with creativity and
               precision, delighting in the process of crafting delicious dishes
               that bring people together and create memorable experiences.
+            </p>
+          </MotionDiv>
+          <MotionDiv delayOffset={0.6}>
+            <div className="w-full">
+              <p>
+                If you want to know more about me, I also like hiking ⛰️,
+                swimming 🏊‍♂️ and indie music 🎵
+              </p>
+              <p>
+                My favourite movie is <i> Chungking Express</i> 🌃
+              </p>
+              <p>
+                My favourite animes are <i> Ghost in the Shell</i> 🤖 and
+                <i> Cowboy Bebop</i> 🚀
+              </p>
+              <p>
+                My favourite video games are <i> Alice Madness Return </i> 🕰️
+                and
+                <i> Hollow Knight</i> 🐞
+              </p>
+            </div>
+          </MotionDiv>
+          <MotionDiv delayOffset={0.7}>
+            <p className="w-full">
+              Feel free to reach out if you feel like having a chat about
+              anything :)
             </p>
           </MotionDiv>
         </article>
@@ -36,7 +62,7 @@ export default function about() {
       <div className="lg:order-2 lg:w-1/3">
         <MotionDiv delayOffset={0.4}>
           <img
-            src="/photo.jpg"
+            src="/photo_1.jpg"
             alt="photo"
             className="w-[350px] min-w-[300px] rounded-xl transition-all"
           />
