@@ -1,7 +1,7 @@
 import { owner } from "@/configs";
 import { MotionDiv, MotionText, ContactList } from ".";
 
-const titleList = ["Developer 👩🏻‍💻", "Creative Foodie 👩🏻‍🍳"];
+const titleList = ["Developer 👩🏻‍💻", "Home Foodie 👩🏻‍🍳"];
 
 const titleAnimTime = titleList.length * 0.2;
 
@@ -42,8 +42,8 @@ const Hero = () => {
         </MotionDiv>
         <MotionDiv delayOffset={1 + titleAnimTime}>
           <p>
-            A <b>Full Stack Developer</b> who loves to build something looks
-            good ✨
+            A <b>Software Engineer</b> who loves to build something looks good
+            ✨
           </p>
         </MotionDiv>
       </div>
