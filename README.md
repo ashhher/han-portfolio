@@ -1,8 +1,7 @@
 # Portfolio Website 👩🏻‍💻
 
-A clean portfolio website refactored from <a href="https://github.com/erich2s/eric-portfolio-website" target="_blank"> eric-portfolio-website </a>
-
 <div align="center">
+A clean portfolio website refactored from <a href="https://github.com/erich2s/eric-portfolio-website" target="_blank"> eric-portfolio-website </a>
 
 ➡️ <em>
 <strong>Live at:
