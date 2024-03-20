@@ -24,12 +24,12 @@ This is a pure frontend project built with Vite.
 - Shadcn/ui (components)
 - Framer motion (animations)
 
-## Deployment 🛠️
-
-Project is tested and deployed to [Vercel](https://vercel.com/).
-
 ## Installation and Setup ⚙️
 
 1. Installation: `npm install`
 2. Run in development mode: `npm run dev`
 3. View the website from: http://localhost:5173
+
+## Deployment 🛠️
+
+This project is tested and deployed to [Vercel](https://vercel.com/).
