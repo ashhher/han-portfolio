@@ -1,4 +1,4 @@
-import { About, Hero } from "@/components";
+import { About, Hero, Skills } from "@/components";
 import { MainLayout } from "@/layouts";
 
 const HomePage = () => {
@@ -6,6 +6,7 @@ const HomePage = () => {
     <MainLayout>
       <Hero />
       <About />
+      <Skills />
     </MainLayout>
   );
 };

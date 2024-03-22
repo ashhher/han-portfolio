@@ -1,6 +1,6 @@
 import { FadeInDiv } from "@/components";
 
-export default function about() {
+const About = () => {
   return (
     <section
       id="about"
@@ -70,4 +70,6 @@ export default function about() {
       </div>
     </section>
   );
-}
+};
+
+export default About;

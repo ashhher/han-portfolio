@@ -11,3 +11,13 @@ export type Contact = {
   icon: IconDefinition;
   className: string;
 };
+
+export type Skill = {
+  name: string;
+  icon: string;
+};
+
+export type SkillSet = {
+  name: string;
+  skills: Skill[];
+};
