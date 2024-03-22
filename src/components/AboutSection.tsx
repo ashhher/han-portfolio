@@ -1,6 +1,6 @@
 import { FadeInDiv } from "@/components";
 
-const About = () => {
+const AboutSection = () => {
   return (
     <section
       id="about"
@@ -72,4 +72,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

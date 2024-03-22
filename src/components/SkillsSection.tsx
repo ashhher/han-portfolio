@@ -1,7 +1,7 @@
 import { skillSetList } from "@/configs";
 import { FadeInDiv, FadeInList, SkillCard } from ".";
 
-const Skills = () => {
+const SkillsSection = () => {
   return (
     <section
       id="skills"
@@ -28,4 +28,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillsSection;

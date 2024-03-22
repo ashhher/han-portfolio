@@ -1,12 +1,12 @@
-import { About, Hero, Skills } from "@/components";
+import { Hero, AboutSection, SkillsSection } from "@/components";
 import { MainLayout } from "@/layouts";
 
 const HomePage = () => {
   return (
     <MainLayout>
       <Hero />
-      <About />
-      <Skills />
+      <AboutSection />
+      <SkillsSection />
     </MainLayout>
   );
 };
