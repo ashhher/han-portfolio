@@ -34,7 +34,7 @@ This is a pure frontend project built with Vite.
 
 #### Feature
 
-- Skills Section
+- ~~Skills Section~~
 - Contact Section
 - Sticky Header
 - Experience Section
@@ -44,6 +44,7 @@ This is a pure frontend project built with Vite.
 #### Bug Fix
 
 - Add loading before video is loaded
+- Add padding to all sections
 
 ## Deployment 🛠️
 
