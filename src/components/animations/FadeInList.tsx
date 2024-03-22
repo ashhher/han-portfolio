@@ -9,7 +9,7 @@ type Props = {
   children: React.ReactNode[];
 };
 
-const MotionList = ({
+const FadeInList = ({
   delayOffset = 0,
   showWhenInView = true,
   className,
@@ -75,4 +75,4 @@ const MotionList = ({
   );
 };
 
-export default MotionList;
+export default FadeInList;

@@ -6,7 +6,7 @@ type Props = {
   delayOffset: number;
 };
 
-const MotionText = ({ children, delayOffset = 0 }: Props) => {
+const FadeInText = ({ children, delayOffset = 0 }: Props) => {
   const words = children.split(" ");
 
   const wordsLetters = words
@@ -40,4 +40,4 @@ const MotionText = ({ children, delayOffset = 0 }: Props) => {
   );
 };
 
-export default MotionText;
+export default FadeInText;

@@ -8,7 +8,7 @@ type Props = {
   children: ReactElement | string;
 };
 
-const MotionDiv = ({ delayOffset, className, children }: Props) => {
+const FadeInDiv = ({ delayOffset, className, children }: Props) => {
   const controls = useAnimation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -37,4 +37,4 @@ const MotionDiv = ({ delayOffset, className, children }: Props) => {
   );
 };
 
-export default MotionDiv;
+export default FadeInDiv;

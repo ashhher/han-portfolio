@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { contacts } from "@/configs";
 import {
   Button,
-  MotionList,
+  FadeInList,
   Tooltip,
   TooltipContent,
   TooltipProvider,
@@ -17,7 +17,7 @@ type Props = {
 
 const ContactList = ({ delayOffset = 0, showWhenInView = true }: Props) => {
   return (
-    <MotionList delayOffset={delayOffset} showWhenInView={showWhenInView}>
+    <FadeInList delayOffset={delayOffset} showWhenInView={showWhenInView}>
       {contacts.map((contact, index) => (
         <TooltipProvider delayDuration={0} key={index}>
           <Tooltip>
@@ -49,7 +49,7 @@ const ContactList = ({ delayOffset = 0, showWhenInView = true }: Props) => {
           </Tooltip>
         </TooltipProvider>
       ))}
-    </MotionList>
+    </FadeInList>
   );
 };
 
