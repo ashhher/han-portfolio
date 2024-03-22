@@ -30,6 +30,21 @@ This is a pure frontend project built with Vite.
 2. Run in development mode: `npm run dev`
 3. View the website from: http://localhost:5173
 
+## TODO 📝
+
+#### Feature
+
+- Skills Section
+- Contact Section
+- Sticky Header
+- Experience Section
+- Project Section
+- 3D Animation to photos
+
+#### Bug Fix
+
+- Add loading before video is loaded
+
 ## Deployment 🛠️
 
 This project is tested and deployed to [Vercel](https://vercel.com/).
