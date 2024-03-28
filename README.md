@@ -29,7 +29,7 @@ This is a pure frontend project built with Vite.
 #### Feature
 
 - ~~Skills Section~~
-- Contact Section
+- ~~Contact Section~~
 - Sticky Header
 - Experience Section
 - Project Section

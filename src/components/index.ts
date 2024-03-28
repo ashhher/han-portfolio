@@ -8,3 +8,4 @@ export { default as SkillCard } from "./SkillCard";
 export { default as Hero } from "./Hero";
 export { default as AboutSection } from "./AboutSection";
 export { default as SkillsSection } from "./SkillsSection";
+export { default as ContactSection } from "./ContactSection";
