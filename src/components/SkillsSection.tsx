@@ -5,7 +5,7 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="flex w-full flex-col items-center text-center"
+      className="flex w-full flex-col items-center text-center scroll-m-28"
     >
       <FadeInDiv>
         <h2 className="mb-4">My Skills</h2>

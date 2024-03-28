@@ -30,7 +30,8 @@ This is a pure frontend project built with Vite.
 
 - ~~Skills Section~~
 - ~~Contact Section~~
-- Sticky Header
+- ~~Sticky Header~~
+- Scroll to top button
 - Experience Section
 - Project Section
 - 3D Animation to photos
