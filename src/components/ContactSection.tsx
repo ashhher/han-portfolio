@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="my-4 mb-20 md:mb-28 md:mt-8 flex flex-col items-center gap-5 text-center  scroll-m-28"
+      className="my-4 mb-20 md:mt-8 flex flex-col items-center gap-5 text-center scroll-m-28"
     >
       <FadeInDiv>
         <h2>Contact</h2>

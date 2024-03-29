@@ -19,6 +19,29 @@ const FadeInList = ({
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
+  const ulVariants = {
+    hidden: {
+      opacity: 0,
+      y: 20,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        delayChildren: 0.3 + delayOffset,
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const liVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+    },
+  };
+
   useEffect(() => {
     if (!showWhenInView) {
       controls.start("visible");
@@ -34,34 +57,15 @@ const FadeInList = ({
   return (
     <motion.ul
       ref={ref}
-      className={cn("flex gap-4", className)}
       initial="hidden"
       animate={controls}
-      variants={{
-        hidden: {
-          opacity: 0,
-          y: 20,
-        },
-        visible: {
-          opacity: 1,
-          y: 0,
-          transition: {
-            delayChildren: 0.3 + delayOffset,
-            staggerChildren: 0.1,
-          },
-        },
-      }}
+      variants={ulVariants}
+      className={cn("flex gap-4", className)}
     >
       {children.map((child, i) => (
         <motion.li
           key={i}
-          variants={{
-            hidden: { opacity: 0, y: 20 },
-            visible: {
-              opacity: 1,
-              y: 0,
-            },
-          }}
+          variants={liVariants}
           transition={{
             type: "spring",
             damping: 20,

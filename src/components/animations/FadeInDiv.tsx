@@ -22,7 +22,6 @@ const FadeInDiv = ({ delayOffset, className, children }: Props) => {
   return (
     <motion.div
       ref={ref}
-      className={cn("relative flex items-center justify-center", className)}
       initial={{ y: 100, opacity: 0 }}
       animate={controls}
       transition={{
@@ -31,6 +30,7 @@ const FadeInDiv = ({ delayOffset, className, children }: Props) => {
         stiffness: 200,
         delay: delayOffset,
       }}
+      className={cn("relative flex items-center justify-center", className)}
     >
       {children}
     </motion.div>

@@ -1,9 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { cx } from "class-variance-authority";
-import { useMotionValueEvent, useScroll } from "framer-motion";
 import { owner } from "@/configs";
 import { Section } from "@/types";
+import { useIsAtTop } from "@/hooks";
+import { scrollToTop } from "@/utils";
 
 const sections: Section[] = [
   {
@@ -21,17 +21,7 @@ const sections: Section[] = [
 ];
 
 export default function Header() {
-  const { scrollY } = useScroll();
-
-  const [isAtTop, setIsAtTop] = useState<boolean>(true);
-
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    if (latest === 0) {
-      setIsAtTop(true);
-    } else if (isAtTop) {
-      setIsAtTop(false);
-    }
-  });
+  const isAtTop = useIsAtTop();
 
   return (
     <nav
@@ -42,7 +32,9 @@ export default function Header() {
     >
       <div className="container flex flex-col items-center justify-between md:flex-row">
         <div className="text-5xl drop-shadow-2xl font-goldenSignature">
-          <Link to="/">{owner}</Link>
+          <Link to="/" onClick={scrollToTop}>
+            {owner}
+          </Link>
         </div>
         <div className="nav-links flex gap-x-8 text-base">
           {sections.map((section) => (

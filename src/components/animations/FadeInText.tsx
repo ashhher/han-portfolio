@@ -22,7 +22,6 @@ const FadeInText = ({ children, delayOffset = 0 }: Props) => {
     <motion.div>
       {wordsLetters.map((letter, index) => (
         <motion.span
-          className="inline-flex"
           key={index}
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -32,6 +31,7 @@ const FadeInText = ({ children, delayOffset = 0 }: Props) => {
             damping: 15,
             stiffness: 400,
           }}
+          className="inline-flex"
         >
           {letter}
         </motion.span>
