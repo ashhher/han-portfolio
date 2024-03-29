@@ -21,6 +21,7 @@ const Hero = () => {
             autoPlay
             loop
             playsInline
+            poster="/animoji-placeholder.jpg"
           >
             <source src={"/animoji.mp4"} type="video/mp4" />
             Your browser does not support the video tag.

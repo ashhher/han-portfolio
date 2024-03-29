@@ -38,8 +38,8 @@ This is a pure frontend project built with Vite.
 
 #### Bug Fix
 
-- Add loading before video is loaded
-- Add padding to all sections
+- ~~Add video placeholder~~
+- ~~Add padding to all sections~~
 
 ## Installation and Setup ⚙️
 
