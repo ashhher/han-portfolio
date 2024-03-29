@@ -7,11 +7,11 @@ const AboutSection = () => {
       className="mx-auto my-16 flex flex-col items-center justify-center gap-4 px-2 md:my-20  md:max-w-full lg:flex-row lg:items-start lg:gap-16 scroll-m-28"
     >
       <div className="order-2 lg:order-1 lg:w-2/3">
-        <FadeInDiv delayOffset={0.2}>
+        <FadeInDiv>
           <h2 className="mb-3 w-full text-center md:mb-6">About Me</h2>
         </FadeInDiv>
         <article className="flex flex-col gap-4">
-          <FadeInDiv delayOffset={0.4}>
+          <FadeInDiv>
             <p>
               Hi, I'm Han Xiao, a passionate <b>Software Engineer</b> based in
               <b> Melbourne, Australia</b>. My role involves designing and
@@ -20,7 +20,7 @@ const AboutSection = () => {
               passion for learning.
             </p>
           </FadeInDiv>
-          <FadeInDiv delayOffset={0.5}>
+          <FadeInDiv>
             <p>
               Beyond the realm of technology, I am a home foodie, finding joy
               and inspiration in the culinary arts. Experimenting with flavours,
@@ -31,7 +31,7 @@ const AboutSection = () => {
               that bring people together and create memorable experiences.
             </p>
           </FadeInDiv>
-          <FadeInDiv delayOffset={0.6}>
+          <FadeInDiv>
             <div className="w-full">
               <p>
                 If you want to know more about me, I also like hiking ⛰️,
@@ -51,7 +51,7 @@ const AboutSection = () => {
               </p>
             </div>
           </FadeInDiv>
-          <FadeInDiv delayOffset={0.7}>
+          <FadeInDiv>
             <p className="w-full">
               Feel free to reach out if you feel like having a chat about
               anything :)
@@ -60,7 +60,7 @@ const AboutSection = () => {
         </article>
       </div>
       <div className="lg:order-2 lg:w-1/3">
-        <FadeInDiv delayOffset={0.4}>
+        <FadeInDiv>
           <img
             src="/photo_1.jpg"
             alt="photo"
