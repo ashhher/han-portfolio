@@ -26,8 +26,8 @@ export default function Header() {
   return (
     <nav
       className={cx(
-        "w-full flex justify-center select-none font-light py-2 md:px-28 md:py-5 sticky top-0 z-10 bg-white/50 backdrop-blur-sm transition-all duration-500",
-        !isAtTop && "shadow-md"
+        !isAtTop && "shadow-md bg-white/50 backdrop-blur-sm",
+        "w-full flex justify-center select-none font-light py-2 md:px-28 md:py-5 sticky top-0 z-10 bg-transparent transition-all duration-500"
       )}
     >
       <div className="container flex flex-col items-center justify-between md:flex-row">
